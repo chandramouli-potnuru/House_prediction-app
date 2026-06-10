@@ -5,7 +5,7 @@ import numpy as np
 with open("house_model.pkl", "rb") as f:
     model = pickle.load(f)
 
-st.title("House Price Prediction")
+st.title("House Price Prediction - CI/CD Test")
 
 area = st.number_input("Area")
 
